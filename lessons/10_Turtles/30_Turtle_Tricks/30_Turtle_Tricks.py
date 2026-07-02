@@ -24,7 +24,7 @@ import turtle
 turtle.setup(600, 600, 0, 0)            
 tina = turtle.Turtle()
 tina.circle(60)
-tina
+tina.end_fill
 turtle.exitonclick()                    # Close the window when we click on it
 
 # Save your progress by checking in your code.
