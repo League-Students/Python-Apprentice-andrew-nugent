@@ -22,4 +22,5 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 
 import.turtle
 tina = turtle.Turtle()
+
                   # Close the window when we click on it
