@@ -13,7 +13,9 @@ uid: BpGnQq64
 name: Loop With Turtle
 
 
-
-
-
 for i in range
+
+
+
+turtle.exitonclick()
+
