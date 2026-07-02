@@ -29,4 +29,4 @@ tina.pencolor('green')
 tina.left(60)
 tina.forward(100)
 tina.right(120)
-tina.endonclick
+turtle.exitoncliclick()
