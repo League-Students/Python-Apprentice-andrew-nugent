@@ -23,4 +23,5 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 import turtle
 tina = turtle.Turtle()
 turtle.setup(600, 600, 0, 0) 
+tina.forwra
                   # Close the window when we click on it
