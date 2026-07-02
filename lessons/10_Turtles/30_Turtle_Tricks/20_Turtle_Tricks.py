@@ -21,7 +21,33 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 ... # Your code here
 import turtle
 turtle.setup(600,600,0,0)
-tina = turtle.Turtle()
-turtle.exitonclick()                    # Close the window when we click on it
-tina.forward(100)
-tina.left(60)
+tina = turtle.Turtle()                    # Close the window when we click on it
+
+
+def left_corner():
+    tina.forward(100)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    turtle.exitonclick()
