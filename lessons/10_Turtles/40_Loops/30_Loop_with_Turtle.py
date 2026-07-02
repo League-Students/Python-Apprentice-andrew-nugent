@@ -11,10 +11,9 @@ In this program, use a loop to draw a regular pentagon (5-sided shape) with Tina
 
 uid: BpGnQq64
 name: Loop With Turtle
+
+
+
+
+
 for i in range
-tina.forward(100)
-tina.left(72)
-
-
-
-... # Your code here
