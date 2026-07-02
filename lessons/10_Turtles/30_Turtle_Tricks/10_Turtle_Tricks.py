@@ -20,7 +20,7 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 
 ... # Your code here
 
-import.turtle
+import turtle
 tina = turtle.Turtle()
-
+turtle.setup(600, 600, 0, 0) 
                   # Close the window when we click on it
