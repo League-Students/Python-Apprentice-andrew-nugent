@@ -31,10 +31,14 @@ tina.pencolor("red")
 tina.forward(100)
 tina.pencolor("blue")
 tina.left(72)
-tina.pencolor("")
+tina.pencolor("yellow")
 tina.forward(150)
 tina.left(72)
-tina.forward(150)
+tina.pencololr("orange")
+tina.forward(1100)
+
+
+
 tina.left(72)
 tina.forward(100)
 turtle.exitonclick()
