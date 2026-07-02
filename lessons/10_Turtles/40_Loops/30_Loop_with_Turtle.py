@@ -13,8 +13,9 @@ uid: BpGnQq64
 name: Loop With Turtle
 
 
-for i in range
-
+for i in range(4):
+    tina.forward(100)
+    tina.left(72)
 
 
 turtle.exitonclick()
