@@ -26,28 +26,9 @@ tina = turtle.Turtle()                    # Close the window when we click on it
 
 def left_corner():
     tina.forward(100)
+    tina.left(60)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    turtle.exitonclick()
+left_corner()
+ turtle.exitonclick()
