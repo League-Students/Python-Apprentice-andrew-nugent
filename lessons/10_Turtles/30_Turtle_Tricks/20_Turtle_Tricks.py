@@ -24,13 +24,5 @@ turtle.setup(600,600,0,0)
 tina = turtle.Turtle()                    # Close the window when we click on it
 
 
-def left_corner():
-    tina.forward(100)
-    tina.left(60)
-    tina.forward(100)
-
-
-
-
-left_corner()
-turtle.exitonclick()
+tina.forward(100)
+tina.pencolor('random')
