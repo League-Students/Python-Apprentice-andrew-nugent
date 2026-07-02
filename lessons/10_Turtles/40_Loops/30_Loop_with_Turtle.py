@@ -13,10 +13,11 @@ uid: BpGnQq64
 name: Loop With Turtle
 """
 import turtle
+turtle.setup(600,600,0,0)
 tina = turtle.Turtle()
-tina
 
-for i in range(4):
+
+for i in range(5):
     tina.forward(100)
     tina.left(72)
 
