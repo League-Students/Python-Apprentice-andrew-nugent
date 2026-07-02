@@ -25,4 +25,6 @@ tina = turtle.Turtle()                    # Close the window when we click on it
 
 
 tina.forward(100)
-tina.pencolor('random')
+tina.pencolor('green')
+tina.left(60)
+tina.forward(100)
