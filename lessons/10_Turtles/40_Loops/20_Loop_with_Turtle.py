@@ -21,8 +21,8 @@ tina.shape('turtle')                    # Set the shape of the turtle to a turtl
 tina.speed(2)                           # Move at a moderate speed, not too fast.
 
 for i in range(4):
-tina.forward(150)                       # Move tina forward by the forward distance
-tina.left(90)                           # Turn tina left by 90 degrees
+    tina.forward(150)                       # Move tina forward by the forward distance
+    tina.left(90)                           # Turn tina left by 90 degrees
 
 
 
