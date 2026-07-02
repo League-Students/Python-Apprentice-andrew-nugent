@@ -24,6 +24,9 @@ import turtle
 turtle.setup(600, 600, 0, 0) 
 tina = turtle.Turtle()
 tina.forward(100)
-tina.left(60)
+tina.left(120)
+tina.forward(100)
+tina.left(120)
+tina.forwrad(100)
 turtle.exitonclick()
                   # Close the window when we click on it
