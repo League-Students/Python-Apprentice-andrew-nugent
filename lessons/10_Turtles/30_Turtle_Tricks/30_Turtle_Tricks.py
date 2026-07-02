@@ -23,7 +23,8 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 import turtle                           
 turtle.setup(600, 600, 0, 0)            
 tina = turtle.Turtle()
-tina.
+tina.circle(60)
+tina
 turtle.exitonclick()                    # Close the window when we click on it
 
 # Save your progress by checking in your code.
