@@ -16,5 +16,6 @@ screen.setup(width=600, height=600)
 screen.bgcolor('white')
 
 t = turtle.Turtle()
-t.shape()
+t.shape("leaguebot_bot")
+
 ... # Your Code Here
