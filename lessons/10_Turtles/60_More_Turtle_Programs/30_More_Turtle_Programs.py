@@ -6,7 +6,7 @@ Then change the code so that the turtle uses a different background image
 (look in the 'images' directory) and draws a shape on top of it with your turtle.
 """
 
-mport turtle
+import turtle
 import random
 def set_turtle_image(turtle,pikachu):
     """Set the turtle's shape to a custom image."""
