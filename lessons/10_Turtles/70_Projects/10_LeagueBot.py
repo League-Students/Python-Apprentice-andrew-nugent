@@ -38,7 +38,7 @@ for x, y in [(200, 200), (200, -200), (-200, -200), (-200, 200)]:
     t.goto(x, y)
 
 turtle.exitonclick() 
-```
+
 
 screen = turtle.Screen()
 screen.setup(width=600, height=600)
