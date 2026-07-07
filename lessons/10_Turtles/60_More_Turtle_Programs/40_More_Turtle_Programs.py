@@ -86,4 +86,3 @@ turtle.done() # Important! Use `done` not `exitonclick` to keep the window open
 
 
 
-turtle.exitonclick()
