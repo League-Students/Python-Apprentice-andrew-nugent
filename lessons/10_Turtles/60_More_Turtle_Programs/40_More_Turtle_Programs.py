@@ -15,7 +15,6 @@ Use this code to get a random x and y location
 
 import turtle
 import random
-t.shape("turtle")
 def set_turtle_image(turtle,emoji):
     """Set the turtle's shape to a custom image."""
 
@@ -60,7 +59,7 @@ y = random.randint(-300,300)
 # Double-click to copy!
 
                                            
-
+t.shape("turtle")
 t.turtlesize(stretch_wid=10, stretch_len=10, outline=4)     # Make the turtle really big
 
 def turtle_clicked(t, x, y):
