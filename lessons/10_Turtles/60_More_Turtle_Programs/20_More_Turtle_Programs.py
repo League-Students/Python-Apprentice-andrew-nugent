@@ -8,12 +8,12 @@ directory ) and moves to the corners of the screen in a square pattern.
 
 import turtle
 import random
-def set_turtle_image(turtle,emoji):
+def set_turtle_image(turtle,pikachu):
     """Set the turtle's shape to a custom image."""
 
     from pathlib import Path                        # Import Path from pathlib module
     image_dir = Path(__file__).parent.parent / "images"    # Define the directory containing images
-    image_path = str(image_dir /emoji)        # Create the full path to the image file
+    image_path = str(image_dir /pikachu)        # Create the full path to the image file
 
     screen = turtle.getscreen()                     # Get the turtle's screen
     screen.addshape(image_path)                     # Register the image as a shape
@@ -39,7 +39,7 @@ screen.setup(width=600, height=600)
 # Create a turtle and set its shape to the custom GIF
 t = turtle.Turtle()
 
-set_turtle_image(t, "emoji.png")
+set_turtle_image(t, "pikachu.gif")
 
 t.penup()   # Prevent drawing when moving
 t.speed(3)  # Set a moderate speed
