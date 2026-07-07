@@ -8,7 +8,7 @@ directory ) and moves to the corners of the screen in a square pattern.
 
 import turtle
 import random
-def set_turtle_image(turtle,pikachu):
+def set_turtle_image(turtle, pikachu):
     """Set the turtle's shape to a custom image."""
 
     from pathlib import Path                        # Import Path from pathlib module
