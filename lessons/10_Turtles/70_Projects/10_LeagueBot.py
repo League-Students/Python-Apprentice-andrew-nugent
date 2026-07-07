@@ -27,8 +27,7 @@ for x, y in [(200, 200), (200, -200), (-200, -200), (-200, 200)]:
 
 turtle.exitonclick() 
 
-# Create a turtle and set its shape to the custom GIF
-t = turtle.Turtle()
+
 
 #set_turtle_image(t, "leaguebot_bolt.gif")
 
