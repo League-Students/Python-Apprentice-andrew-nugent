@@ -17,8 +17,9 @@ turtle.setup(600, 600, 0, 0)
 
 # Create a turtle and set its shape to the custom GIF
 t = turtle.Turtle()
-t.size(10)
 t.shape("turtle")
+t.size(10)
+
 
 t.penup()   # Prevent drawing when moving
 t.speed(3)  # Set a moderate speed
