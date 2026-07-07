@@ -16,7 +16,7 @@ screen.setup(width=600, height=600)
 screen.bgcolor('white')
 
 t = turtle.Turtle()
-t.shape("leaguebot_bolt.png")
+t.shape("leaguebot_bolt.gif")
 def set_turtle_image(turtle, image_name):
     """Set the turtle's shape to a custom image."""
 
@@ -35,7 +35,7 @@ screen.setup(width=600, height=600)
 # Create a turtle and set its shape to the custom GIF
 t = turtle.Turtle()
 
-set_turtle_image(t, "pikachu.gif")
+set_turtle_image(t, "leaugebot.gif")
 
 t.penup()   # Prevent drawing when moving
 t.speed(3)  # Set a moderate speed
@@ -45,7 +45,7 @@ for x, y in [(200, 200), (200, -200), (-200, -200), (-200, 200)]:
     t.goto(x, y)
 
 turtle.exitonclick() 
-```
+
 
 t.size(10)
 ... # Your Code Here
