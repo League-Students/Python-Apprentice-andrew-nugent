@@ -42,5 +42,5 @@ for x, y in [(200, 200), (200, -200), (-200, -200), (-200, 200)]:
 turtle.exitonclick() 
 
 
-t.size(10)
+t.size(0.1)
 ... # Your Code Here
