@@ -15,7 +15,7 @@ screen = turtle.Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor('white')
 
-t = turtle.Turtle()
+
 def set_turtle_image(turtle, image_name):
     """Set the turtle's shape to a custom image."""
 
@@ -46,5 +46,5 @@ for x, y in [(200, 200), (200, -200), (-200, -200), (-200, 200)]:
 turtle.exitonclick() 
 
 
-t.size(10)
+t.size(5)
 ... # Your Code Here
