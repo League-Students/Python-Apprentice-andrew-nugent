@@ -77,6 +77,7 @@ def turtle_clicked(t, x, y):
     print('turtle clicked!')
     
     for i in range(0,360, 20):  # Full circle, 20 degrees at a time
+        print(i)
         t.tilt(20)              # Tilt the turtle 20 degrees
 
 # Connect the turtle to the turtle_clicked function
