@@ -20,7 +20,7 @@ def set_background_image(window, emoji.png):
     from PIL import Image                                           # Import Image from PIL (Pillow) library
 
     image_dir = Path(__file__).parent / "images"                    # Define the directory containing images
-    image_path = str(image_dir / image_name)                        # Create the full path to the image file
+    image_path = str(image_dir / emoji.png)                        # Create the full path to the image file
 
     image = Image.open(image_path)                                  # Open the image to get its dimensions
     
