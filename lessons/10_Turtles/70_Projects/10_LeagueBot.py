@@ -10,10 +10,11 @@ Write your own turtle program! Here is what your program should do
 """
 
 import turtle
+turtle.setup(600, 600, 0, 0)
 # Set up the screen
 screen = turtle.Screen()
 screen.setup(width=600, height=600)
-turtle.setup(600, 600, 0, 0)
+
 
 # Create a turtle and set its shape to the custom GIF
 t = turtle.Turtle()
