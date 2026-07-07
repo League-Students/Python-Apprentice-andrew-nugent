@@ -19,7 +19,7 @@ def set_turtle_image(turtle,emoji):
     """Set the turtle's shape to a custom image."""
 
     from pathlib import Path                        # Import Path from pathlib module
-    image_dir = Path(__file__).parent.parent / "images"    # Define the directory containing images
+    image_dir = Path(__file__).parent. / "images"    # Define the directory containing images
     image_path = str(image_dir /emoji)        # Create the full path to the image file
 
     screen = turtle.getscreen()                     # Get the turtle's screen
@@ -46,7 +46,7 @@ screen.setup(width=600, height=600)
 # Create a turtle and set its shape to the custom GIF
 t = turtle.Turtle()
 
-set_turtle_image(t,"girlblue_png")
+set_turtle_image(t,"girl_blue.png")
 
 t.penup()   # Prevent drawing when moving
 t.speed(3)  # Set a moderate speed
