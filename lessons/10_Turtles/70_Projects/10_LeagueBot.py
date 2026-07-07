@@ -16,7 +16,8 @@ screen.setup(width=600, height=600)
 
 # Create a turtle and set its shape to the custom GIF
 t = turtle.Turtle()
-
+t.size(10)
+t.shape("turtle")
 
 t.penup()   # Prevent drawing when moving
 t.speed(3)  # Set a moderate speed
@@ -28,13 +29,5 @@ for x, y in [(200, 200), (200, -200), (-200, -200), (-200, 200)]:
 turtle.exitonclick() 
 
 
-
-#set_turtle_image(t, "leaguebot_bolt.gif")
-
-t.penup()   # Prevent drawing when moving
-t.speed(3)  # Set a moderate speed
-
-
-turtle.exitonclick() 
 
 
