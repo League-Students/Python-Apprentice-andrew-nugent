@@ -20,6 +20,7 @@ screen.setup(width=600, height=600)
 t = turtle.Turtle()
 t.shape("turtle")
 t.turtlesize(10)
+t.pencolor(blue)
 def draw_polygon(sides):
 
     angle =360/sides                             # Calculate angle from number of sides
