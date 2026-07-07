@@ -56,7 +56,6 @@ for x, y in [(200, 200), (200, -200), (-200, -200), (-200, 200)]:
     t.goto(x, y)
 x = random.randint(-300,300)
 y = random.randint(-300,300)
-```python
 # Double-click to copy!
 
                                            
@@ -84,7 +83,7 @@ def turtle_clicked(t, x, y):
 t.onclick(lambda x, y, t=t: turtle_clicked(t, x, y))
 
 turtle.done() # Important! Use `done` not `exitonclick` to keep the window open
-```
+
 
 
 turtle.exitonclick()
