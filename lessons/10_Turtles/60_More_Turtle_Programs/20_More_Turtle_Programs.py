@@ -50,5 +50,5 @@ for x, y in [(200, 200), (200, -200), (-200, -200), (-200, 200)]:
 x = random.randint(-300,300)
 y = random.randint(-300,300)
 
-
+t.size(10)
 turtle.exitonclick()
