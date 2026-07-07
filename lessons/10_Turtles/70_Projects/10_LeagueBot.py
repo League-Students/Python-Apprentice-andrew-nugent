@@ -24,12 +24,14 @@ def draw_polygon(sides):
 
     angle =360/sides                             # Calculate angle from number of sides
     
-    for i in range(4):                 # Loop through the number of sides
+    for i in range(8):                 # Loop through the number of sides
         tina.forward(100)
         tina.left(angle)
 
 t.penup()   # Prevent drawing when moving
 t.speed(3)  # Set a moderate speed
+
+draw_polygon(8)
 
 # Move the turtle to each corner of the screen in a square pattern
 
