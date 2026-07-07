@@ -26,13 +26,13 @@ def draw_polygon(sides):
                                       # Move tina forward by the forward distance
         ...                              # Turn tina left by the left turn
 
-draw_polygon()                        # Draw a square
+draw_polygon(sides)                        # Draw a square
 ...                                      # Move tina to another spot on the screen
 
-draw_polygon(...)                        # Draw a pentagon
+draw_polygon(sides)                        # Draw a pentagon
 
 ...                                      # Move tina to another spot on the screen
 
-draw_polygon(...)                        # Draw a hexagon
+draw_polygon(sides)                        # Draw a hexagon
 
 turtle.exitonclick()                     # Close the window when we click on it
