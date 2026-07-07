@@ -19,7 +19,7 @@ screen.setup(width=600, height=600)
 # Create a turtle and set its shape to the custom GIF
 t = turtle.Turtle()
 t.shape("turtle")
-t.size(10)
+t.turtlesize(10)
 
 
 t.penup()   # Prevent drawing when moving
