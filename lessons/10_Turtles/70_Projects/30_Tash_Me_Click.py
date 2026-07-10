@@ -301,4 +301,5 @@ while running:
                     enemies.add(new_enemy)
 
         # Case B: Player lasers striking active level Boss
-                            if boss_spawned and active_boss.alive():
+
+
