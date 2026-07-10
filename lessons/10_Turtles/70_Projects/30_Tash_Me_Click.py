@@ -10,6 +10,7 @@ Hint: See 10_More_Turtle_Programs, section 'Respond to Screen Clicks'
 import random
 import sys
 import math
+import pygame
 
 # Initialize Pygame
 pygame.init()
