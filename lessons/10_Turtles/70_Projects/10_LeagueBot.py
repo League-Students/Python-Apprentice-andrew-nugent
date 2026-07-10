@@ -19,7 +19,6 @@ screen.setup(width=600, height=600)
 # Create a turtle and set its shape to the custom GIF
 t = turtle.Turtle()
 t.shape("turtle")
-t.turtlesize(10)
 t.pencolor("blue")
 def draw_polygon(sides):
 
@@ -32,6 +31,7 @@ def draw_polygon(sides):
 
 
 draw_polygon(8)
+draw_ploygon(4)
 
 # Move the turtle to each corner of the screen in a square pattern
 
