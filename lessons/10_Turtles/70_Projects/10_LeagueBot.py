@@ -31,7 +31,7 @@ def draw_polygon(sides):
 
 
 draw_polygon(8)
-draw_ploygon(4)
+draw_polygon(4)
 
 # Move the turtle to each corner of the screen in a square pattern
 
