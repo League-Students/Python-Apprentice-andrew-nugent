@@ -14,7 +14,7 @@ Hint: See the `10_More_Turtle_Programs` section labeled 'Set a Background Pictur
 
 import turtle
 
-def set_background_image(window, emoji.png):
+def set_background_image(window, emojipng):
     """Set the background image of the turtle window to the image with the given name."""
     from pathlib import Path                                        # Import Path from pathlib module
     from PIL import Image                                           # Import Image from PIL (Pillow) library
